@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
 }
 
 a{
@@ -14,12 +20,13 @@ li{
 }
 
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #56593D;
 }
 
 .header{
-    padding: 60px;
+    padding: 60px 0;
+    
 }
 
 .container{
@@ -40,6 +47,7 @@ body{
 
 .left_menu__item{
     padding: 0 20px;
+    font-size: 16px;
 }
 
 .left_menu__item a{
@@ -55,3 +63,67 @@ body{
 .right_menu__item{
     padding: 0 10px;
 }
+
+.hero{
+    background: url(./source/Hero.png);
+    max-width: 1320px;
+    height: 700px;
+    display: flex;
+    justify-content: right;
+}
+
+.hero__content{
+    margin: 465px 65px 65px;
+    text-align: right;
+}
+
+.hero__content h3{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.hero__content h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.btn{
+    background-color: #56593D;
+    border: none;
+    width: 15.5rem;
+    height: 5.5rem;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.btn:hover{
+    background-color: #656848;
+    cursor: pointer;
+}
+
+.under__hero{
+    padding: 110px 40px;
+    justify-content: center;
+}
+
+.slogan{
+    font-size: 57px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.link__block{
+    border-bottom: #56593D solid 2px;
+    margin: 40px;
+}
+
+.link{
+    font-size: 16px;
+    color: #56593D;
+}
+
